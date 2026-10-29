@@ -1,0 +1,7 @@
+## Interface: 30300
+## Title: BoneUI
+## Notes: Modular UI for Ascension Conquest of Azeroth
+## Author: Uncle Bone
+## Version: 1.0.0
+## SavedVariables: BoneUIDB
+BoneUI.lua
