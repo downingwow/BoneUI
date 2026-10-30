@@ -1,0 +1,11 @@
+## Interface: 30300
+## Title: |cff0cd29fBoneUI|r - Ellesmere 3.3.5a Port
+## Notes: Personal-use compatibility port of EllesmereUI 9.6.9
+## Author: Ellesmere (original); Uncle Bone (compatibility port)
+## Version: 1.1.0
+## SavedVariables: BoneUIBackportDB
+Core.lua
+Modules\Frames.lua
+Modules\Cast.lua
+Modules\ActionBars.lua
+Options.lua

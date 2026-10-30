@@ -1,19 +1,17 @@
-# BoneUI
+# BoneUI v1.1.0 — Early Ellesmere compatibility build
 
-Standalone modular UI project for **Ascension: Conquest of Azeroth / Conquest Reborn** (WoW 3.3.5a-based).
+Standalone modular UI work for Conquest Reborn's 3.3.5a client. This release contains the supplied early compatibility package based on EllesmereUI 9.6.9 visuals, not a complete direct source port.
 
-**Maintainer:** Uncle Bone  
-**Contact:** https://github.com/downingwow  
-**Version:** 1.0.0 (development foundation)
+Implemented: isolated startup/settings, movable player/target/focus information frames, a player cast/channel timer, optional action-button accents, independent BoneUIBackportDB storage and no CVar writes.
 
-## Status
+Not implemented: the original settings engine, profile import/export, original unit-frame/action-bar architecture, raid frames, bags, nameplates, cooldown manager, resource bars and unlock mode. ElvUI/DragonUI coexistence is optional; the project is intended to work independently.
 
-The initial core provides startup, persistent settings, slash commands, a module registry, and a profile table API. Full EllesmereUI feature modules and serialized import/export conversion are not implemented or in-game tested yet.
+Install the BoneUI folder in Interface/AddOns. Keep the original EllesmereUI disabled. `/bui` opens settings; `/bui reset` clears this backport's own settings and reloads. Existing EllesmereUIDB is not modified. Back up BoneUI settings before upgrading from older builds because this package uses separate BoneUIBackportDB storage.
 
-Install the `BoneUI` folder into `Interface/AddOns/`. Commands: `/boneui version`, `/boneui modules`, `/boneui cvars` (also `/bui`).
+This is an alpha implementation published on the requested stable release channel; live-client validation remains pending. Original EllesmereUI media attribution and the supplied restrictive license remain intact. Publication does not alter or grant additional rights under that license. See BoneUI/LICENSE-ELLESMERE.txt and BoneUI/README.md for the original personal-use restrictions.
 
-## Goals
+Maintainer: Uncle Bone — https://github.com/downingwow
 
-Minimal CVar changes, CoA custom classes/resources support, compatibility with default Blizzard UI and DragonUI, and future EllesmereUI profile import/export compatibility where technically feasible. ElvUI-CoA remains a separate project.
+## Support and attribution
 
-Preserve required upstream copyright notices and third-party attribution if upstream code is reused. Versions follow MAJOR.MINOR.PATCH; see CHANGELOG.md.
+Report errors with your addon version, UI addons and full Lua traceback at https://github.com/downingwow/BoneUI/issues. Target: Ascension Conquest Reborn / WoW 3.3.5a (Interface 30300). Original source notices and bundled third-party licenses are preserved.
