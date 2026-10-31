@@ -1,5 +1,8 @@
 # BoneUI v1.1.0 — Early compatibility build
 
+> **[⬇ Download v1.1.0]( https://github.com/downingwow/BoneUI/releases/download/v1.1.0/BoneUI-v1.1.0.zip )**
+
+
 Standalone modular UI work for Conquest Reborn's 3.3.5a client. This release contains the supplied early compatibility package based on EllesmereUI 9.6.9 visuals, not a complete direct source port.
 
 Implemented: isolated startup/settings, movable player/target/focus information frames, a player cast/channel timer, optional action-button accents, independent BoneUIBackportDB storage and no CVar writes.
