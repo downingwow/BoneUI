@@ -1,4 +1,4 @@
-# BoneUI v1.1.0 — Early Ellesmere compatibility build
+# BoneUI v1.1.0 — Early compatibility build
 
 Standalone modular UI work for Conquest Reborn's 3.3.5a client. This release contains the supplied early compatibility package based on EllesmereUI 9.6.9 visuals, not a complete direct source port.
 
